@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color:whitesmoke;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.headline {
+    flex: 2;
+}
+
+.headline img {
+    width: 100%;
+    height: auto;
+}
+
+.other-news {
+    flex: 1;
+}
+
+.other-news ul {
+    list-style: none;
+    padding: 0;
+}
+
+.other-news li {
+    margin-bottom: 10px;
+}
+
+.sidebar {
+    background-color: white;
+    padding: 20px;
+    width: 25%;
+}
+
+.sidebar h2 {
+    color:burlywood;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color:black;
+    color:white;
+}
